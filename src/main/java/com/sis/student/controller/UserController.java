@@ -59,7 +59,7 @@ public class UserController {
 //			}
 //		}
 		System.err.println(file);
-		System.err.println(stuDto);
+		
 		EmployeeDto studetail = helper.jasonData(stuDto);
 		if(services.registerWithDetails(file,studetail)) {
 			
